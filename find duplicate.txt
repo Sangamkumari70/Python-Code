@@ -1,0 +1,14 @@
+ numbers
+numbers = [1, 2, 3, 4, 5, 6, 2, 7, 8, 3]
+
+# Initialize an empty list to store duplicates
+duplicates = []
+
+# Loop through the list to find duplicates
+for i in range(len(numbers)):
+    for j in range(i + 1, len(numbers)):
+        if numbers[i] == numbers[j] and numbers[i] not in duplicates:
+            duplicates.append(numbers[i])
+
+# Display the duplicate values
+print("Duplicate values are:", duplicates)

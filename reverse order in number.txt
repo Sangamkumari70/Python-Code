@@ -1,0 +1,6 @@
+# Original list
+original_list = ['red', 'green', 'white', 'black']
+
+# Traverse the list in reverse order and print the elements with the original index
+for i in range(len(original_list)-1, -1, -1):
+    print(f"Index {i}: {original_list[i]}")

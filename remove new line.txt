@@ -1,0 +1,7 @@
+string = "\nBest \nDeeptech \nPython \nTraining\n"
+
+# Replace newline characters with an empty string
+string = string.replace("\n", "")
+
+# Print the result
+print(string

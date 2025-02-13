@@ -1,0 +1,13 @@
+string = "Deeptech Python Training"
+
+# Split the string into a list of words
+words = string.split()
+
+# Reverse the list of words
+reversed_words = words[::-1]
+
+# Join the reversed list into a single string
+reversed_string = " ".join(reversed_words)
+
+# Print the result
+print(reversed_string)

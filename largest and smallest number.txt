@@ -1,0 +1,17 @@
+# List of numbers
+numbers = [3, 5, 1, 9, 2, 8]
+
+# Initialize variables for largest and smallest
+largest = numbers[0]
+smallest = numbers[0]
+
+# Loop through the list to find the largest and smallest numbers
+for number in numbers:
+    if number > largest:
+        largest = number
+    if number < smallest:
+        smallest = number
+
+# Display the result
+print("The largest number is:", largest)
+print("The smallest number is:", smallest)

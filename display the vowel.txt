@@ -1,0 +1,22 @@
+string = "Welcome to python Training"
+
+# Define a string of vowels
+vowels = "aeiouAEIOU"
+
+# Initialize a counter for vowels
+vowel_count = 0
+
+# Initialize an empty list to store found vowels
+found_vowels = []
+
+# Loop through each character in the string
+for char in string:
+    if char in vowels:
+        vowel_count += 1
+        found_vowels.append(char)
+
+# Print the count of vowels
+print("Number of vowels:", vowel_count)
+
+# Print the vowels found
+print("Vowels:", " ".join(found_vowels))

@@ -1,0 +1,14 @@
+# Input from the user
+number = int(input("Enter a number to find its factorial: "))
+
+# Initialize variables
+factorial = 1
+i = 1
+
+# Calculate factorial using while loop
+while i <= number:
+    factorial *= i  # Multiply factorial by the current number
+    i += 1  # Increment the counter
+
+# Output the factorial
+print(f"The factorial of {number} is {factorial}.")

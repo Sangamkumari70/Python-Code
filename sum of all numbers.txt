@@ -1,0 +1,12 @@
+# Initialize variables
+total = 0
+
+# Loop to accept input until the user enters 0
+while True:
+    num = int(input("Enter a number (enter 0 to stop): "))
+    if num == 0:
+        break
+    total += num
+
+# Display the sum of all numbers
+print(f"The sum of all entered numbers is: {total}")
